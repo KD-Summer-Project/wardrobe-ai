@@ -12,6 +12,11 @@ fastapi>=0.111.0              # API framework (connects AI to your app)
 uvicorn>=0.29.0               # ASGI server to run FastAPI
 python-multipart>=0.0.9       # Handles image file uploads in FastAPI
 pydantic>=2.7.0               # Data validation (request/response models)
+email-validator>=2.1.0        # Validates EmailStr fields
+pydantic-settings>=2.2.0      # Typed .env loading
+sqlmodel>=0.0.21              # ORM (SQLAlchemy + Pydantic) over SQLite
+bcrypt>=4.1.0                 # Password hashing
+python-jose[cryptography]>=3.3.0  # JWT encode/decode
 
 # ── Utilities ──────────────────────────────────────────────────────────────────
 httpx>=0.27.0                 # Async HTTP client (calling weather APIs)
